@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Creación de Contenido de JAW">
+    <title>JAW Portafolio | Creación de Contenido</title>
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#121212">
+
+    <!-- Tipografía moderna Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/4.png">
+</head>
+<body>
+
+    <!-- Navegación Superior -->
+    <header class="navbar">
+        <div class="logo">JAW<span>.</span></div>
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="main-container">
+
+        <!-- Sección de Proyectos en 2 columnas -->
+        <section class="cards-grid">
+            <article class="card">
+                <div class="image-box">
+                    <img src="img/4.png" alt="Agencia de Creación de Contenido" title="Agencia de Creación de Contenido">
+                </div>
+                <h3>Mis Proyectos</h3>
+                <p>Un proyecto enfocado en contar historias desde perspectivas auténticas. Producción audiovisual, edición de alto nivel y narrativa digital para marcas con propósito.</p>
+            </article>
+
+            <article class="card">
+                <div class="image-box">
+                    <img src="img/4.png" alt="Servicios de Creación de Contenido" title="Servicios de Creación de Contenido">
+                </div>
+                <h3>Servicios</h3>
+                <p>Soluciones personalizadas en creación de contenido digital, videos promocionales e identidad de marca con un estándar estético cuidado en cada detalle.</p>
+            </article>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section class="form-section">
+            <h2>Formulario de Contacto</h2>
+            <form method="post" action="#">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <!-- Tabla de Métricas / Resultados -->
+        <section class="table-section">
+            <h2>Experiencias y Proyectos</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Área de Trabajo</th>
+                            <th>Promocionales</th>
+                            <th>Redes Sociales</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Creación de Contenido</td>
+                            <td>80</td>
+                            <td>90</td>
+                            <td>170</td>
+                        </tr>
+                        <tr>
+                            <td>Edición &amp; Postproducción</td>
+                            <td>85</td>
+                            <td>95</td>
+                            <td>180</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="total-label">Total Proyectos</td>
+                            <td class="total-value">350</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2026 JAW. Todos los derechos reservados. &bull; Contacto: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+
+</body>
+</html>
